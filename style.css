@@ -1,0 +1,113 @@
+.title {
+    position: relative;
+    font-family: "MS Pゴシック";
+    font-size: 60px;
+    line-height: 1.4;
+    padding: 0.25em 1em;
+    display: inline-block;
+}
+
+.title:before,
+.title:after {
+    content: '';
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    display: inline-block;
+}
+
+.title:before {
+    border-left: solid 1px black;
+    border-top: solid 1px black;
+    top: 0;
+    left: 0;
+}
+
+.title:after {
+    border-right: solid 1px black;
+    border-bottom: solid 1px black;
+    bottom: 0;
+    right: 0;
+}
+
+.hr1 {
+    position: relative;
+    height: 1px;
+    width: 100%;
+    border-width: 0;
+    background-color: black;
+    text-align: center;
+}
+
+
+/* .flex {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+    flex-wrap: wrap;
+    row-gap: 2em;
+}
+
+section.box {
+    width: 400px;
+    height: 450px;
+    text-align: center;
+    background-color: lightgray;
+    border: 1px solid #333;
+    padding: 1em;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+section figure img {
+    border-radius: 20%;
+    margin-bottom: 1rem;
+    border: 1px solid black;
+}
+
+section figure figcaption {
+    text-align: justify;
+}
+
+section figure a {
+    transition: 1s;
+}
+
+section figure a:hover {
+    opacity: 0.5;
+}
+
+.contactimg {
+    transition: 1s;
+}
+
+.contactimg:hover {
+    opacity: 0.5;
+} */
+
+body {
+    font-family: "MS Pゴシック";
+    background-color: #f0f8ff;
+    padding: 20px;
+}
+
+ul li h1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+ul li p {
+    padding-top: 50px;
+    text-align: center;
+}
+
+ul li a img {
+    transition: 1s;
+    width: 800px;
+    height: 800px;
+}
+
+ul li a img:hover {
+    opacity: 0.5;
+}
